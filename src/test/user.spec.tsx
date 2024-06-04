@@ -1,5 +1,5 @@
-import User from "@/components/user";
 import { render, screen, waitFor } from "@testing-library/react";
+import User from "@/components/user";
 import axios from "axios";
 
 jest.mock("axios");

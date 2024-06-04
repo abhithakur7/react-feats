@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "jest",
     "coverage": "npm test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}'",
-    "prepare": "husky"
+    "prepare": "node .husky/install.mjs"
   },
   "dependencies": {
     "axios": "^1.7.2",
